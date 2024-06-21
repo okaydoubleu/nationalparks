@@ -23,7 +23,7 @@ namespace NationalParks.Controllers
         [HttpGet]
         public ActionResult<string> Welcome()
         {
-            return "Welcome to the National Parks data service.";
+            return "Welcome to the amazing National Parks data service.";
         }
 
         [Route("ws/data/all")]
